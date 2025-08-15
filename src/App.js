@@ -36,7 +36,7 @@ function App() {
   {/* BS Navigation Bar */}
   <nav className="navbar navbar-expand-lg">
     <div className="container-fluid">
-      <a className="navbar-brand" href="#home">
+      <a className="navbar-brand" href="#about">
         MAX MENDOZA
       </a>
 
@@ -56,8 +56,8 @@ function App() {
         <ul className="navbar-nav ms-auto">
 
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#home">
-              Home
+            <a className="nav-link active" aria-current="page" href="#about">
+              About
             </a>
           </li>
 
@@ -78,7 +78,7 @@ function App() {
   </nav>
 
   {/* BS Hero */}
-  <section id="home" className="hero-section">
+  <section id="about" className="hero-section">
     <div className="container">
       <div className="hero-content">
         <div className="hero-text">
